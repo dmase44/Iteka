@@ -1,1 +1,0 @@
-jQuery(function($){$.supersized({slide_interval:4000,transition:1,transition_speed:800,slide_links:'blank',slides:[{image:'imgs/bkgs/treeSunset.jpg'},{image:'imgs/bkgs/bklitTree.jpg'},{image:'imgs/bkgs/agyness.jpg'},{image:'imgs/bkgs/brnTreea.jpg'},{image:'imgs/bkgs/brnTreeb.jpg'},{image:'imgs/bkgs/treeSilho.jpg'}]});});
