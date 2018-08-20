@@ -1,6 +1,4 @@
-google.maps.event.addDomListener(window, 'load', init);
-
-function init() {
+function initMap() {
   var mapOptions = {
     zoom: 9,
     center: new google.maps.LatLng(31.0702301, -94.4901085),
@@ -101,7 +99,7 @@ function init() {
   };
 
   // A div tag with id="map-canvas" in the <body>
-  var mapElement = document.getElementById('map-canvas');
+  var mapElement = document.getElementById('map');
   // Create the Google Map using our element and options above
   var map = new google.maps.Map(mapElement, mapOptions);
 
@@ -126,3 +124,4 @@ function init() {
   });
 
 }
+google.maps.event.addDomListener(window, 'load', initMap);
